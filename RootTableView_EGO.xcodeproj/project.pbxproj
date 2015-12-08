@@ -15,6 +15,10 @@
 		D7E8FD9D1C16B9D8005E908F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E8FD9B1C16B9D8005E908F /* LaunchScreen.storyboard */; };
 		D7E8FDA81C16B9D8005E908F /* RootTableView_EGOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDA71C16B9D8005E908F /* RootTableView_EGOTests.m */; };
 		D7E8FDB31C16B9D8005E908F /* RootTableView_EGOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDB21C16B9D8005E908F /* RootTableView_EGOUITests.m */; };
+		D7E8FDC21C16B9FD005E908F /* RootTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDC11C16B9FD005E908F /* RootTableView.m */; };
+		D7E8FDC51C16BA5A005E908F /* NSObject+MKBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDC41C16BA5A005E908F /* NSObject+MKBlockTimer.m */; };
+		D7E8FDC81C16BAC0005E908F /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDC71C16BAC0005E908F /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7E8FDCB1C16BB67005E908F /* XTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E8FDCA1C16BB66005E908F /* XTAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		D7E8FDAE1C16B9D8005E908F /* RootTableView_EGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RootTableView_EGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E8FDB21C16B9D8005E908F /* RootTableView_EGOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableView_EGOUITests.m; sourceTree = "<group>"; };
 		D7E8FDB41C16B9D8005E908F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E8FDC01C16B9FD005E908F /* RootTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableView.h; sourceTree = "<group>"; };
+		D7E8FDC11C16B9FD005E908F /* RootTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableView.m; sourceTree = "<group>"; };
+		D7E8FDC31C16BA5A005E908F /* NSObject+MKBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKBlockTimer.h"; sourceTree = "<group>"; };
+		D7E8FDC41C16BA5A005E908F /* NSObject+MKBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKBlockTimer.m"; sourceTree = "<group>"; };
+		D7E8FDC61C16BAC0005E908F /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		D7E8FDC71C16BAC0005E908F /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		D7E8FDC91C16BB66005E908F /* XTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTAnimation.h; sourceTree = "<group>"; };
+		D7E8FDCA1C16BB66005E908F /* XTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				D7E8FD911C16B9D8005E908F /* AppDelegate.m */,
 				D7E8FD931C16B9D8005E908F /* ViewController.h */,
 				D7E8FD941C16B9D8005E908F /* ViewController.m */,
+				D7E8FDC01C16B9FD005E908F /* RootTableView.h */,
+				D7E8FDC11C16B9FD005E908F /* RootTableView.m */,
+				D7E8FDC91C16BB66005E908F /* XTAnimation.h */,
+				D7E8FDCA1C16BB66005E908F /* XTAnimation.m */,
+				D7E8FDC61C16BAC0005E908F /* EGORefreshTableHeaderView.h */,
+				D7E8FDC71C16BAC0005E908F /* EGORefreshTableHeaderView.m */,
+				D7E8FDC31C16BA5A005E908F /* NSObject+MKBlockTimer.h */,
+				D7E8FDC41C16BA5A005E908F /* NSObject+MKBlockTimer.m */,
 				D7E8FD961C16B9D8005E908F /* Main.storyboard */,
 				D7E8FD991C16B9D8005E908F /* Assets.xcassets */,
 				D7E8FD9B1C16B9D8005E908F /* LaunchScreen.storyboard */,
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E8FDC81C16BAC0005E908F /* EGORefreshTableHeaderView.m in Sources */,
+				D7E8FDCB1C16BB67005E908F /* XTAnimation.m in Sources */,
+				D7E8FDC51C16BA5A005E908F /* NSObject+MKBlockTimer.m in Sources */,
 				D7E8FD951C16B9D8005E908F /* ViewController.m in Sources */,
+				D7E8FDC21C16B9FD005E908F /* RootTableView.m in Sources */,
 				D7E8FD921C16B9D8005E908F /* AppDelegate.m in Sources */,
 				D7E8FD8F1C16B9D8005E908F /* main.m in Sources */,
 			);
